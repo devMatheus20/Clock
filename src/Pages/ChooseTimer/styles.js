@@ -110,9 +110,13 @@ export const ChooseTimer = styled.div`
     }
 
     .texts p {
-        margin-top: 5px;
+        margin-top: 10px;
         text-align: center;
         color: #fafafa;
+
+        @media(max-width: 580px) {
+            font-size: 12px;
+        }
     }
 
     @media(max-width: 580px) {
