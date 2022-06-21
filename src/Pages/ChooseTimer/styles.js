@@ -59,7 +59,7 @@ export const ChooseTimer = styled.div`
         flex-direction: column;
         margin-right: 15px;
         margin-bottom: 15px;
-        color: #303030;
+        color: #00BFFF;
         font-size: 25px;
         cursor: pointer;
 
