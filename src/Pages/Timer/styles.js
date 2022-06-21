@@ -60,7 +60,7 @@ export const Timer = styled.div`
     .nopulse {
         position: absolute;
         z-index: 1;
-        border: 2px solid #24a35f;
+        border: 3px solid #24a35f;
         width: 330px;
         height: 330px;
         border-radius: 50%;
@@ -68,7 +68,7 @@ export const Timer = styled.div`
 
     .pulse {
         position: absolute;
-        border: 2px solid #24a35f;
+        border: 3px solid #24a35f;
         width: 330px;
         height: 330px;
         border-radius: 50%;

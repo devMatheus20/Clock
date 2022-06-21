@@ -8,7 +8,7 @@ export const ContainerClock = styled.section`
     min-height: calc(100vh - 165px);    
 
     @media(max-width:900px) {
-        min-height: calc(100vh - 145px)
+        min-height: calc(100vh - 135px)
     } 
 `
 

@@ -11,7 +11,7 @@ export const ContainerStopWatch = styled.div`
     background-color: #0B0A17;
 
     @media(max-width:900px) {
-        min-height: calc(100vh - 145px)
+        min-height: calc(100vh - 135px)
     }
 
 `
