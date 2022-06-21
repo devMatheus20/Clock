@@ -91,7 +91,7 @@ export const ChooseTimer = styled.div`
         height: 100px;
         box-shadow: -1px 5px 5px -4px rgb(0 0 0 / 80%);
         border-radius: 8px;
-        border: 1px solid #fff;
+        border: 1px solid #ccc;
         font-size: 80px;
         font-weight: 700;
         color: #fafafa;
