@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #303030;
+}
+
+#root {
+    position: relative;
+    min-height: 97vh;
+    width: 80%;
+    background-color: #080713;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.52);
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(max-width: 900px) {
+
+    body {
+        padding: 0;
+    }
+
+    #root {
+        min-height: 100vh;
+        width: 100%;
+        border-radius: 0;
+    }
+}
