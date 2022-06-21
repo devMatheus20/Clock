@@ -16,6 +16,14 @@ function ChooseTimer() {
     const [minutes, setMinutes] = useState(0)
     const [seconds, setSeconds] = useState(0)
 
+    function navigateTo() {
+        if(hours !== 0 || minutes !== 0 || seconds !== 0) {
+            navigate(`/timer/?hrs=${hours}&min=${minutes}&sec=${seconds}`)
+        } else {
+            alert("Insira um valor")
+        }
+    }
+
     return (
         <>
             <Title>Temporizador</Title>
@@ -66,7 +74,7 @@ function ChooseTimer() {
                         </div>
                     </div>
                 </S.ChooseTimer>
-                <button onClick={() => navigate(`/timer/?hrs=${hours}&min=${minutes}&sec=${seconds}`)}>Começar</button>
+                <button onClick={navigateTo}>Começar</button>
             </S.Container>
         </>
     )
