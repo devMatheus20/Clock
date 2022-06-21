@@ -86,11 +86,12 @@ export const ChooseTimer = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color:  #303030;
+        background-color: #080713;
         width: 120px;
         height: 100px;
         box-shadow: -1px 5px 5px -4px rgb(0 0 0 / 80%);
         border-radius: 8px;
+        border: 1px solid #fff;
         font-size: 80px;
         font-weight: 700;
         color: #fafafa;
