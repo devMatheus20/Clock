@@ -8,7 +8,7 @@ export const Container = styled.div`
     align-items: center;
     background-color: #0B0A17;
     min-height: calc(100vh - 165px);   
-    padding: 50px 0;
+    padding: 85px 0;
 
     @media(max-width:900px) {
         min-height: calc(100vh - 135px)
