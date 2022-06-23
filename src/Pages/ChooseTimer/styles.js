@@ -124,6 +124,6 @@ export const ChooseTimer = styled.div`
     }
 
     @media(max-width: 580px) {
-        margin: 60px 0 60px -25px;
+        margin: 40px 0 70px -25px;
     }
 `
