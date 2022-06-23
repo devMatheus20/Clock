@@ -77,7 +77,6 @@ export const ChooseTimer = styled.div`
 
         @media(max-width: 580px) {
             font-size: 20px;
-            margin: 70px 0;
         }
     }
 
