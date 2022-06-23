@@ -96,7 +96,11 @@ function Timer() {
         return `${hours ? `${hrs}:` : ''}${min}:${sec}`
     }
 
-    useEffect(() => startTimer(hours, minutes, seconds))
+    useEffect(() => {
+        startTimer(hours, minutes, seconds)
+
+        // eslint-disable-next-line
+    }, [])
 
     return (
 
