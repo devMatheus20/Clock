@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import useSound from "use-sound";
 import * as S from './styles'
@@ -95,6 +95,11 @@ function Timer() {
 
         return `${hours ? `${hrs}:` : ''}${min}:${sec}`
     }
+
+
+    useEffect(() => {
+        startTimer(hours, minutes, seconds)
+    }, [])
 
     return (
 

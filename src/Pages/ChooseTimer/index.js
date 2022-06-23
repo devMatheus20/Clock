@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import * as S from './styles'
 
-import { BsFillArrowUpCircleFill, BsFillArrowDownCircleFill } from 'react-icons/bs'
+import { BsFillArrowUpCircleFill, BsFillArrowDownCircleFill, BsFillPlayCircleFill } from 'react-icons/bs'
 import { IconContext } from 'react-icons/lib';
 
 import Title from '../../Components/Title'
@@ -17,7 +17,7 @@ function ChooseTimer() {
     const [seconds, setSeconds] = useState(0)
 
     function navigateTo() {
-        if(hours !== 0 || minutes !== 0 || seconds !== 0) {
+        if (hours !== 0 || minutes !== 0 || seconds !== 0) {
             navigate(`/timer/?hrs=${hours}&min=${minutes}&sec=${seconds}`)
         } else {
             alert("Insira um valor")
@@ -74,7 +74,13 @@ function ChooseTimer() {
                         </div>
                     </div>
                 </S.ChooseTimer>
-                <button onClick={navigateTo}>Começar</button>
+                <button onClick={navigateTo}>
+
+                    <IconContext.Provider value={{ className: "icon-play-stop" }} >
+                        <BsFillPlayCircleFill />
+                    </IconContext.Provider>
+
+                </button>
             </S.Container>
         </>
     )

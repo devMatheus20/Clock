@@ -25,25 +25,29 @@ export const Container = styled.div`
 
     button {
         background-color: transparent;
-        padding: 10px 60px;
-        border: 1px solid #00BFFF;
-        border-radius: 6px;
-        font-size: 20px;
-        color: #fafafa;
-        transition: 0.3s;
+        border: none;
         cursor: pointer;
+    }
+
+    .icon-play-stop {
+        font-size: 60px;
+        color: 	#00BFFF;
 
         :hover {
-            background-color: #00BFFF;
-            color: #000;
+            opacity: 0.8;
+        }
+
+        :active {
+            opacity: 0.5;
         }
     }
+
 `
 
 export const ChooseTimer = styled.div`
     display: flex;
     gap: 30px;
-    margin: 70px 0;
+    margin: 70px 0 70px -20px;
 
     @media(max-width: 580px) {
         flex-direction: column;
@@ -51,7 +55,7 @@ export const ChooseTimer = styled.div`
 
     .hours, .minutes, .seconds {
         display: flex;
-        align-items: center
+        align-items: center;
     }
 
     .icons-arrow {
