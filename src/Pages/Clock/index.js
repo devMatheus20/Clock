@@ -62,13 +62,19 @@ function Clock() {
                     <h3>{date}</h3>
                 </S.Date>
 
-                {infoIp &&
+                {infoIp ?
                     <S.InfoCountry>
 
                         <FaCity/>
 
                         <span>{infoIp.city} - {infoIp.region} - {infoIp.country_name ? 'Brasil' : ''}</span>
 
+                    </S.InfoCountry>
+
+                    :
+
+                    <S.InfoCountry>
+                        <h3 className='loading'>carregando...</h3>
                     </S.InfoCountry>
                 }
             </S.ContainerClock>

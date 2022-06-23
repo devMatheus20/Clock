@@ -5,10 +5,11 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #0B0A17;
     min-height: calc(100vh - 165px);   
-    padding: 85px 0;
+    
 
     @media(max-width:900px) {
         min-height: calc(100vh - 135px)
@@ -124,6 +125,6 @@ export const ChooseTimer = styled.div`
     }
 
     @media(max-width: 580px) {
-        margin: 40px 0 70px -25px;
+        margin: 60px 0 60px -25px;
     }
 `

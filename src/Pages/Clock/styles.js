@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const ContainerClock = styled.section`
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #0B0A17;
     min-height: calc(100vh - 165px);    
@@ -19,7 +20,7 @@ export const Time = styled.div`
     background-color: #353535;
     height: 100px;
     width: 90%;
-    margin: 125px auto 0 auto;
+    margin: 0 auto;
     border-radius: 6px;
     box-shadow: 0 0 25px 0 rgba(0,0,0,.7);
 
