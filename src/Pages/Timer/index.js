@@ -96,10 +96,7 @@ function Timer() {
         return `${hours ? `${hrs}:` : ''}${min}:${sec}`
     }
 
-
-    useEffect(() => {
-        startTimer(hours, minutes, seconds)
-    }, [])
+    useEffect(() => startTimer(hours, minutes, seconds))
 
     return (
 
