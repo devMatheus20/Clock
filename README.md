@@ -1,8 +1,7 @@
 # Clock
 
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  
+<!-- <div style="display: flex; gap: 10px; flex-wrap: wrap;">
 
   <div>
     <img id="top" src="src/Assets/Screenshot_1.png" width="150px" alt="Foto apresentando o projeto">
@@ -22,7 +21,7 @@
   
   
 </div>
-<br/>
+<br/> -->
 
 > O site é um Relógio virtual
 
