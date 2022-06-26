@@ -1,17 +1,17 @@
 # Clock
 
 
-<img id="top" src="src/assets/Screenshot_1.png" width="150px" alt="Foto apresentando o projeto">
+<img id="top" src="src/Assets/Screenshot_1.png" width="150px" alt="Foto apresentando o projeto">
 
-<img id="top" src="src/assets/Screenshot_2.png" width="150px" alt="Foto apresentando o projeto">
+<img id="top" src="src/Assets/Screenshot_2.png" width="150px" alt="Foto apresentando o projeto">
 
-<img id="top" src="src/assets/Screenshot_3.png" width="150px" alt="Foto apresentando o projeto">
+<img id="top" src="src/Assets/Screenshot_3.png" width="150px" alt="Foto apresentando o projeto">
 
-<img id="top" src="src/assets/Screenshot_4.png" width="150px" alt="Foto apresentando o projeto">
+<img id="top" src="src/Assets/Screenshot_4.png" width="150px" alt="Foto apresentando o projeto">
 
 > O site é um Relógio virtual
 
-Confira a aplicação: 
+Confira a aplicação: https://clock-123.netlify.app/
 
 ## :rocket: Tecnologias ##
 
