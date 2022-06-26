@@ -1,13 +1,15 @@
 # Clock
 
 
-<img id="top" src="src/Assets/Screenshot_1.png" width="150px" alt="Foto apresentando o projeto">
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img id="top" src="src/Assets/Screenshot_1.png" width="150px" alt="Foto apresentando o projeto">
 
-<img id="top" src="src/Assets/Screenshot_2.png" width="150px" alt="Foto apresentando o projeto">
+  <img id="top" src="src/Assets/Screenshot_2.png" width="150px" alt="Foto apresentando o projeto">
 
-<img id="top" src="src/Assets/Screenshot_3.png" width="150px" alt="Foto apresentando o projeto">
+  <img id="top" src="src/Assets/Screenshot_3.png" width="150px" alt="Foto apresentando o projeto">
 
-<img id="top" src="src/Assets/Screenshot_4.png" width="150px" alt="Foto apresentando o projeto">
+  <img id="top" src="src/Assets/Screenshot_4.png" width="150px" alt="Foto apresentando o projeto">
+</div>
 
 > O site é um Relógio virtual
 
