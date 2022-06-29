@@ -74,7 +74,7 @@ function Clock() {
                     :
 
                     <S.InfoCountry>
-                        <h3 className='loading'>carregando...</h3>
+                        <span className='loading'>carregando...</span>
                     </S.InfoCountry>
                 }
             </S.ContainerClock>

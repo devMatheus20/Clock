@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import useSound from "use-sound";
 import * as S from './styles'
@@ -28,7 +28,7 @@ function Timer() {
     const [minutes, setMinutes] = useState(Number(query.get('min')))
     const [seconds, setSeconds] = useState(Number(query.get('sec')))
 
-    function startTimer(hrs, min, sec) {
+    function timer(hrs, min, sec) {
 
         if (icon === true) {
 
@@ -96,11 +96,11 @@ function Timer() {
         return `${hours ? `${hrs}:` : ''}${min}:${sec}`
     }
 
-    useEffect(() => {
-        startTimer(hours, minutes, seconds)
+    // useEffect(() => {
+    //     timer(hours, minutes, seconds)
 
-        // eslint-disable-next-line
-    }, [])
+    //     // eslint-disable-next-line
+    // }, [])
 
     return (
 
@@ -115,7 +115,7 @@ function Timer() {
 
                 <S.ButtonIcon>
 
-                    <button onClick={() => startTimer(hours, minutes, seconds)}>
+                    <button onClick={() => timer(hours, minutes, seconds)}>
                         <IconContext.Provider value={{ className: "icon-play-stop" }} >
 
                             {icon ? <BsFillPlayCircleFill/> : <BsStopCircle/> }
